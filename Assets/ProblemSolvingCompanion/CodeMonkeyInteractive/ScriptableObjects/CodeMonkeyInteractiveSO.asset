@@ -14,26 +14,38 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.00
   studentEmail: 
-  exerciseStateList: []
+  exerciseStateList:
+  - exerciseSO: {fileID: 11400000, guid: 73ee70529b619ac47a01fc651d2fbf47, type: 2}
+    state: 2
+  - exerciseSO: {fileID: 11400000, guid: f80752504b98fda40966c13a5fd36114, type: 2}
+    state: 2
+  - exerciseSO: {fileID: 11400000, guid: 80e830ccaf8e51449934d2a6f2efdf4d, type: 2}
+    state: 2
+  - exerciseSO: {fileID: 11400000, guid: 39a4dd4644ad0214e9dea891a0caef08, type: 2}
+    state: 2
+  - exerciseSO: {fileID: 11400000, guid: 846cdec4271a9db4e8a77cb867465961, type: 2}
+    state: 1
   problemSolvingFrameworkCheckboxState:
     step1: 0
     step2: 0
     step3: 0
   lectureListSO: {fileID: 11400000, guid: c1af4d7cadebe754fa5ac3880e0890f9, type: 2}
   defaultScene: {fileID: 102900000, guid: 99c9720ab356a0642a771bea13969a05, type: 3}
-  activeExerciseSO: {fileID: 0}
+  activeExerciseSO: {fileID: 11400000, guid: 846cdec4271a9db4e8a77cb867465961, type: 2}
   lastSelectedLectureSO: {fileID: 11400000, guid: 790c70be8e2ecba4ba9dd582fe90022b, type: 2}
-  checkedLastUpdateTimestamp: 0
+  checkedLastUpdateTimestamp: 1779075991
   lastUpdateVersion: 1.00
   lastQOTDResponse:
-    questionId: 258
-    questionText: Can you modify transform.forward directly to rotate a transform?
+    questionId: 302
+    questionText: 'Is this valid code?
+
+      <p>Color? myColor = null;</p>'
     answerA: Yes
-    answerB: No
+    answerB: No, myColor is a struct and cannot be null
     answerC: 
     answerD: 
     answerE: 
-  lastQotdTimestamp: 0
+  lastQotdTimestamp: 1779074540
   websiteLatestMessage:
     text: 'Hi there!
 
@@ -48,22 +60,22 @@ MonoBehaviour:
 
       Get the
       full premium course here!<br><a href=''https://cmonkey.co/problemsolvingcoursee''>https://cmonkey.co/problemsolvingcoursee</a>'
-  websiteLatestMessageTimestamp: 0
+  websiteLatestMessageTimestamp: 1779074540
   websiteDynamicMessage:
     text: <u>Fresh Assets on Sale!</u>
     url: https://cmonkey.co/unityassetstore
-  websiteDynamicMessageTimestamp: 0
+  websiteDynamicMessageTimestamp: 1779074540
   websiteLatestVideos:
     videos:
-    - youTubeId: t_-jmK-qXss
-      title: Learn the MOST VALUABLE Skill Tomorrow!
-    - youTubeId: -ukmK1N1QEg
-      title: EVERYTHING I made in 2025!
-    - youTubeId: N0ucHeJPFb4
-      title: 19,606 Steam games in 2025, most made $0 BUT that's not a problem!
-    - youTubeId: ZrlwMA2qaKw
-      title: BEST NEW Visual Assets to INSPIRE YOU! (DECEMBER 2025)
-  websiteLatestVideosTimestamp: 0
+    - youTubeId: JE8LhN-kBtY
+      title: Programming Basics (C# Tutorial for Beginners)
+    - youTubeId: RXjO0W5iF_E
+      title: TOP 10 FREE NEW Assets MAY 2026!
+    - youTubeId: Fb5d_46JfVI
+      title: What are Unity Templates?
+    - youTubeId: pV-tmNmJFjY
+      title: Unity's AI Tools are GENUINELY useful!
+  websiteLatestVideosTimestamp: 1779074540
   lastChatAIQuestionAsked: Is Unity good for making 2D games?
   lastChatAIQuestionAnswer: 'Unity is great for making 2D games! It provides a wide
     range of tools and features specifically designed for 2D game development. Unity''s
