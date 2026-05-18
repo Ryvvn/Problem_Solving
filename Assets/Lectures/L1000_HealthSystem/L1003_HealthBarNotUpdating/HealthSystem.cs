@@ -18,6 +18,7 @@ namespace CMProblemSolving.L1003_HealthSystem {
         public void Damage(int damageAmount) {
             healthAmount -= damageAmount;
             healthAmount = Mathf.Clamp(healthAmount, 0, healthAmountMax);
+            OnHealthAmountChanged?.Invoke(this, EventArgs.Empty);
 
             if (IsDead()) {
                 OnDead?.Invoke(this, EventArgs.Empty);
