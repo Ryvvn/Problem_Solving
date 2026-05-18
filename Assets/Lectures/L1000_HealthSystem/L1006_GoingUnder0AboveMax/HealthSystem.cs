@@ -2,6 +2,7 @@ using System;
 using UnityEngine;
 
 
+
 namespace CMProblemSolving.L1006_GoingUnder0AboveMax {
 
     public class HealthSystem : MonoBehaviour {
@@ -17,7 +18,7 @@ namespace CMProblemSolving.L1006_GoingUnder0AboveMax {
 
         public void Damage(int damageAmount) {
             healthAmount -= damageAmount;
-
+            healthAmount = Mathf.Clamp(healthAmount, 0, healthAmountMax);
             OnHealthAmountChanged?.Invoke(this, EventArgs.Empty);
 
             if (IsDead()) {
@@ -27,7 +28,7 @@ namespace CMProblemSolving.L1006_GoingUnder0AboveMax {
 
         public void Heal(int healAmount) {
             healthAmount += healAmount;
-
+            healthAmount = Mathf.Clamp(healthAmount, 0, healthAmountMax);
             OnHealthAmountChanged?.Invoke(this, EventArgs.Empty);
         }
 
