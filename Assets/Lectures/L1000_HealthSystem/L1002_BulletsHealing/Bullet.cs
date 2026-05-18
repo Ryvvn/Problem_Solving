@@ -16,7 +16,7 @@ namespace CMProblemSolving.L1002_HealthSystem {
 
         private void OnTriggerEnter2D(Collider2D collider2D) {
             if (collider2D.gameObject.TryGetComponent(out Enemy enemy)) {
-                enemy.GetComponent<HealthSystem>().Damage(10);
+                enemy.GetComponent<HealthSystem>().Damage(-10);
                 DestroySelf();
             }
         }
