@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f6a93b863ca8314695b382c0c8c2b3d, type: 3}
+  m_Name: L1700_SaveSystem
+  m_EditorClassIdentifier: 
+  lectureCode: 17
+  lectureNumber: 08
+  lectureName: SaveSystem
+  lectureTitle: Save System
+  exerciseListSO: {fileID: 11400000, guid: 22bd4f4e118e78f4585a22e211b8a692, type: 2}
+  lectureDescription: 'Save System can store any data you want, in this case storing
+    resource amounts and objects in the world.
+
+
+    In this Scenario the player
+    can walk around and gather resources. Then they can save the state of the game,
+    and with another key load the previously saved game state which will load the
+    amounts and any objects placed in the world.'

@@ -1,0 +1,31 @@
+.custom-label {
+    font-size: 20px;
+    -unity-font-style: bold;
+    color: rgb(68, 138, 255);
+}
+
+.fullVersionButton:hover {
+    background-color: rgb(16, 255, 38);
+    border-left-color: rgb(38, 243, 29);
+    border-right-color: rgb(38, 243, 29);
+    border-top-color: rgb(38, 243, 29);
+    border-bottom-color: rgb(38, 243, 29);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    opacity: 1;
+}
+
+.fullVersionButton {
+    background-color: rgb(24, 144, 238);
+    border-left-color: rgb(38, 243, 29);
+    border-right-color: rgb(38, 243, 29);
+    border-top-color: rgb(38, 243, 29);
+    border-bottom-color: rgb(38, 243, 29);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    opacity: 1;
+}

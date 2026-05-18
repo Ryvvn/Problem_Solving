@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e0d8dd5b8f33e34b965fec3f1ff8d3e, type: 3}
+  m_Name: L1215_ErrorPickingitems
+  m_EditorClassIdentifier: 
+  exerciseNumber: 15
+  exerciseName: ErrorPickingItems
+  exerciseTitle: Error picking items
+  videoWalkthroughUrl: https://unitycodemonkey.teachable.com/courses/problem-solving/lectures/63458701
+  exerciseText: Error on picking up items
+  hintText: Something is being destroyed when it shouldn't be, the clean up code
+    should not destroy everything.
+  solutionText: Clean up loop is destroying template when it shouldn't. It should
+    only destroy the clones and leave the template alone.

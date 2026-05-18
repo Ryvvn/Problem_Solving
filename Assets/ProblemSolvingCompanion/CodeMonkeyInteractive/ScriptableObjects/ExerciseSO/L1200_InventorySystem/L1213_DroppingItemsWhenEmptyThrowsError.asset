@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e0d8dd5b8f33e34b965fec3f1ff8d3e, type: 3}
+  m_Name: L1213_DroppingItemsWhenEmptyThrowsError
+  m_EditorClassIdentifier: 
+  exerciseNumber: 13
+  exerciseName: DroppingItemsWhenEmptyThrowsError
+  exerciseTitle: Dropping items when empty throws Error
+  videoWalkthroughUrl: https://unitycodemonkey.teachable.com/courses/problem-solving/lectures/63458699
+  exerciseText: Dropping items while empty throws error
+  hintText: Print the index, is it valid? Should it be valid?
+  solutionText: Remove item logic is not checking for array size when dropping therefore
+    it's trying to get an empty array on index -1 which cannot be done. Add a safety
+    check to only drop an item if the itemSOList has at least one element.

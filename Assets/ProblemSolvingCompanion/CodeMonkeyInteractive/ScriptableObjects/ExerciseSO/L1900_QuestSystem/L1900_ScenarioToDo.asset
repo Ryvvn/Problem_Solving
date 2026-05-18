@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e0d8dd5b8f33e34b965fec3f1ff8d3e, type: 3}
+  m_Name: L1900_ScenarioToDo
+  m_EditorClassIdentifier: 
+  isFree: 1
+  exerciseNumber: 00
+  exerciseName: ScenarioToDo
+  exerciseTitle: Scenario (To-Do)
+  videoWalkthroughUrl: https://unitycodemonkey.teachable.com/courses/problem-solving/lectures/63459479
+  exerciseText: 'Quest System that keeps track of active Quests and each Quest can
+    have its own logic to have any kind of requirements.
+
+
+    In this Scenario,
+    there are 2 NPCs that the Player can interact with, each of them gives a different
+    Quest. The Quests show up in the UI, one quest requires the player to pick up
+    Apples and the other Quest requires the player to Walk.
+
+
+    <b>NOTE: Completing
+    this Exercise will DELETE all the files, so if you want to keep your own personal
+    implementation of this System then make a BACKUP before clicking on Complete
+    Exercise!</b>'
+  hintText: 
+  solutionText: 

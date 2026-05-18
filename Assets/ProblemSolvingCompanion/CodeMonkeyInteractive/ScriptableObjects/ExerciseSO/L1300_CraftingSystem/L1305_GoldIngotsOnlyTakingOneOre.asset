@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e0d8dd5b8f33e34b965fec3f1ff8d3e, type: 3}
+  m_Name: L1305_GoldIngotsOnlyTakingOneOre
+  m_EditorClassIdentifier: 
+  exerciseNumber: 05
+  exerciseName: GoldIngotsOnlyTakingOneOre
+  exerciseTitle: Gold ingots only taking one ore
+  videoWalkthroughUrl: https://unitycodemonkey.teachable.com/courses/problem-solving/lectures/63458724
+  exerciseText: Gold ingots only taking 1 ore to craft
+  hintText: Are the other recipes working fine?
+  solutionText: Gold Ingo recipe takes just 1 input when it should take 3, the hardcoded
+    UI shows 3 but it's because it's hardcoded and not dynamic.

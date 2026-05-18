@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e0d8dd5b8f33e34b965fec3f1ff8d3e, type: 3}
+  m_Name: L2000_ScenarioToDo
+  m_EditorClassIdentifier: 
+  exerciseNumber: 00
+  exerciseName: ScenarioToDo
+  exerciseTitle: Scenario (To-Do)
+  videoWalkthroughUrl: https://unitycodemonkey.teachable.com/courses/problem-solving/lectures/64202445
+  exerciseText: "Equipment System where the player can select an Active Equipment
+    and run its logic, or press a button to select another equipment.\n \nIn this
+    Scenario, the player can press 1 or 2 to select either the Bow or the Pickaxe.
+    The Bow fires arrows and the Pickaxe can gather resources.\n\n<b>NOTE: Completing
+    this Exercise will DELETE all the files, so if you want to keep your own personal
+    implementation of this System then make a BACKUP before clicking on Complete
+    Exercise!</b>"
+  hintText: 
+  solutionText: 

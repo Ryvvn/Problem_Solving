@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e0d8dd5b8f33e34b965fec3f1ff8d3e, type: 3}
+  m_Name: L2111_CannotAddItemsToBlueprint
+  m_EditorClassIdentifier: 
+  exerciseNumber: 11
+  exerciseName: CannotAddItemsToBlueprint
+  exerciseTitle: Cannot add items to blueprint
+  videoWalkthroughUrl: https://unitycodemonkey.teachable.com/courses/problem-solving/lectures/64202477
+  exerciseText: Cannot add progress to blueprint.
+  hintText: Is it not adding progress? Or is it a UI bug?
+  solutionText: The UI script is not listening to the event OnRequirementItemSOAmountListChanged

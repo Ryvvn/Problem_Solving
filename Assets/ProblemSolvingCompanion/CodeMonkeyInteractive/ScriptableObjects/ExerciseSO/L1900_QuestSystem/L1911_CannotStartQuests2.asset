@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e0d8dd5b8f33e34b965fec3f1ff8d3e, type: 3}
+  m_Name: L1911_CannotStartQuests2
+  m_EditorClassIdentifier: 
+  exerciseNumber: 11
+  exerciseName: CannotStartQuests2
+  exerciseTitle: Cannot start Quests 2
+  videoWalkthroughUrl: https://unitycodemonkey.teachable.com/courses/problem-solving/lectures/63459491
+  exerciseText: Cannot start quests
+  hintText: Do a log on the QuestSystem.AddQuest, is it really not adding a quest
+    to the list?
+  solutionText: NPC is not listening to the event and the event is not being fired

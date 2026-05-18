@@ -1,0 +1,3 @@
+#### v1.00 - 2026-01-03
+ * First Version, get the premium version here https://cmonkey.co/problemsolvingcourse
+

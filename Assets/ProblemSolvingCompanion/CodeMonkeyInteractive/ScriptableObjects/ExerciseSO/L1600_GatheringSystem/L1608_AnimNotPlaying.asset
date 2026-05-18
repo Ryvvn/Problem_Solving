@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e0d8dd5b8f33e34b965fec3f1ff8d3e, type: 3}
+  m_Name: L1608_AnimNotPlaying
+  m_EditorClassIdentifier: 
+  exerciseNumber: 08
+  exerciseName: AnimNotPlaying
+  exerciseTitle: Animation not playing
+  videoWalkthroughUrl: https://unitycodemonkey.teachable.com/courses/problem-solving/lectures/63459381
+  exerciseText: Pickaxe animation is not playing
+  hintText: Look in the Console Warnings
+  solutionText: Code is using the wrong Animator Trigger name, remember how strings
+    need to be 100% exact.

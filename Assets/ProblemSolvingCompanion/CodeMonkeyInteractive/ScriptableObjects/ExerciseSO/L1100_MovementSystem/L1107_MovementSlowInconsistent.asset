@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e0d8dd5b8f33e34b965fec3f1ff8d3e, type: 3}
+  m_Name: L1107_MovementSlowInconsistent
+  m_EditorClassIdentifier: 
+  exerciseNumber: 07
+  exerciseName: MovementSlowInconsistent
+  exerciseTitle: Movement Slow Inconsistent
+  videoWalkthroughUrl: https://unitycodemonkey.teachable.com/courses/problem-solving/lectures/63458661
+  exerciseText: Movement is too slow and inconsistent depending on framerate
+  hintText: Log all the elements in the linearVelocity equation, is there someting
+    that shouldn't be there?
+  solutionText: The code is using Time.deltaTime in the calculation to set the linearVelocity,
+    but when setting this you should not use deltaTime since it will be used in the
+    background when the physics system actually moves the object.

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e0d8dd5b8f33e34b965fec3f1ff8d3e, type: 3}
+  m_Name: L1311_AddItemNullRef
+  m_EditorClassIdentifier: 
+  exerciseNumber: 11
+  exerciseName: AddItemNullRef
+  exerciseTitle: Add item NullReferenceException
+  videoWalkthroughUrl: https://unitycodemonkey.teachable.com/courses/problem-solving/lectures/63458738
+  exerciseText: Adding an item throws a NullReferenceException
+  hintText: Null is coming from the UI single script, but where is that null actually
+    coming from?
+  solutionText: Missing references on UI script therefore it's adding a Null item
+    onto the list.

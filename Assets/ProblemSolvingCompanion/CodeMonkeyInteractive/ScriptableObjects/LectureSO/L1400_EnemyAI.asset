@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f6a93b863ca8314695b382c0c8c2b3d, type: 3}
+  m_Name: L1400_EnemyAI
+  m_EditorClassIdentifier: 
+  lectureCode: 14
+  lectureNumber: 05
+  lectureName: EnemyAI
+  lectureTitle: Enemy AI
+  exerciseListSO: {fileID: 11400000, guid: d4f0041d9352cb74f87ecbf1d123b156, type: 2}
+  lectureDescription: 'Enemy AI with a State Machine. The Enemy has various states,
+    it looks for a Target (the Player) then when it finds it chases the target and
+    finally attacks when in range.
+
+
+    In this Scenario the Enemy walks automatically
+    left, then it should approach the Player, find the target and shoot it.'

@@ -1,0 +1,6 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/ProblemSolvingCompanion/CodeMonkeyInteractive/Editor/FrameworkCheckboxWindow/FrameworkCheckboxWindow.uss?fileID=7433441132597879392&amp;guid=69e31d1551e67e14493df3964888487b&amp;type=3#FrameworkCheckboxWindow" />
+    <ui:Toggle value="true" text=" Step 1. Identify Problem" name="step1Toggle" class="toggle" style="-unity-background-image-tint-color: rgb(67, 248, 13);" />
+    <ui:Toggle value="false" text=" Step 2. Locate Problem" name="step2Toggle" class="toggle" />
+    <ui:Toggle value="false" text=" Step 3. Fix Problem" name="step3Toggle" class="toggle" />
+</ui:UXML>

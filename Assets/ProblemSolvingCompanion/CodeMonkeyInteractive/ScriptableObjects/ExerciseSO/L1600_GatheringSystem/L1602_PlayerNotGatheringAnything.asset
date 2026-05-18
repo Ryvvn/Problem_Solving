@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e0d8dd5b8f33e34b965fec3f1ff8d3e, type: 3}
+  m_Name: L1602_PlayerNotGatheringAnything
+  m_EditorClassIdentifier: 
+  exerciseNumber: 02
+  exerciseName: PlayerNotGatheringAnything
+  exerciseTitle: Player not gathering anything
+  videoWalkthroughUrl: https://unitycodemonkey.teachable.com/courses/problem-solving/lectures/63459373
+  exerciseText: Player is not gathering any resources.
+  hintText: Is it finding Colliders in range? Do they have the component? If so then
+    why wouldn't it spawn?
+  solutionText: Timer countdown is testing for >= instead of <=

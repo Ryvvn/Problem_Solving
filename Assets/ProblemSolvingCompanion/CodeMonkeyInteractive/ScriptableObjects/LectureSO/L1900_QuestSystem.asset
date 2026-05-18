@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f6a93b863ca8314695b382c0c8c2b3d, type: 3}
+  m_Name: L1900_QuestSystem
+  m_EditorClassIdentifier: 
+  lectureCode: 19
+  lectureNumber: 10
+  lectureName: QuestSystem
+  lectureTitle: Quest System
+  exerciseListSO: {fileID: 11400000, guid: 1583bb5d40c9cfc44abc46b3f4924c77, type: 2}
+  lectureDescription: 'Quest System that keeps track of active Quests and each Quest
+    can have its own logic to have any kind of requirements.
+
+
+    In this Scenario,
+    there are 2 NPCs that the Player can interact with, each of them gives a different
+    Quest. The Quests show up in the UI, one quest requires the player to pick up
+    Apples and the other Quest requires the player to Walk.'

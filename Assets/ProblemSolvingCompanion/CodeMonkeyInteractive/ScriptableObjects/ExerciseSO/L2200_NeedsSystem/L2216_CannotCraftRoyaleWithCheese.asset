@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e0d8dd5b8f33e34b965fec3f1ff8d3e, type: 3}
+  m_Name: L2216_CannotCraftRoyaleWithCheese
+  m_EditorClassIdentifier: 
+  exerciseNumber: 16
+  exerciseName: CannotCraftRoyaleWithCheese
+  exerciseTitle: Cannot craft Royale with Cheese
+  videoWalkthroughUrl: https://unitycodemonkey.teachable.com/courses/problem-solving/lectures/64202529
+  exerciseText: Cannot craft Royale with Cheese.
+  hintText: Add logs to see what it is trying to craft.
+  solutionText: There is a wrong reference on the CraftingSystemUI script, the royaleWithCheeseSO
+    field has the ApplePieSO reference.

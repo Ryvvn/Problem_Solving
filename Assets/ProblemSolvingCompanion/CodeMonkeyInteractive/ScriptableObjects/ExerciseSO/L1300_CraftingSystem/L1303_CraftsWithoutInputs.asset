@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e0d8dd5b8f33e34b965fec3f1ff8d3e, type: 3}
+  m_Name: L1303_CraftsWithoutInputs
+  m_EditorClassIdentifier: 
+  exerciseNumber: 03
+  exerciseName: CraftsWithoutInputs
+  exerciseTitle: Crafts without Inputs
+  videoWalkthroughUrl: https://unitycodemonkey.teachable.com/courses/problem-solving/lectures/63458719
+  exerciseText: Crafting System is crafting even without inputs
+  hintText: Add logs to check all the function calls, are they being called correctly
+    or is something being bypassed?
+  solutionText: Code is calling Craft(); instead of TryCraft();

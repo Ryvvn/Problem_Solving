@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e0d8dd5b8f33e34b965fec3f1ff8d3e, type: 3}
+  m_Name: L1406_PlayerDyingOneShot
+  m_EditorClassIdentifier: 
+  isFree: 1
+  exerciseNumber: 06
+  exerciseName: PlayerDyingOneShot
+  exerciseTitle: Player dying in one shot
+  videoWalkthroughUrl: https://unitycodemonkey.teachable.com/courses/problem-solving/lectures/63458768
+  exerciseText: Bullet seems to kill the Player in one shot
+  hintText: Is the player really dying in one shot? Or it's just a visual thing?
+  solutionText: HealthAmountNormalized calculation has the usual int / int error,
+    cast it into a float instead.

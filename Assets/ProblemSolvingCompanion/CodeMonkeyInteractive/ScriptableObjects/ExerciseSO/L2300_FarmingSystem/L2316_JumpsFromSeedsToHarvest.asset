@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e0d8dd5b8f33e34b965fec3f1ff8d3e, type: 3}
+  m_Name: L2316_JumpsFromSeedsToHarvest
+  m_EditorClassIdentifier: 
+  exerciseNumber: 16
+  exerciseName: JumpsFromSeedsToHarvest
+  exerciseTitle: Jumps from seeds to Harvest
+  videoWalkthroughUrl: https://unitycodemonkey.teachable.com/courses/problem-solving/lectures/64202555
+  exerciseText: Plants jump stages from Seeds to Harvest.
+  hintText: What is the stage growth logic doing? Do a log on the Stage.
+  solutionText: The enum is defined in the wrong order, Done should be at the end.

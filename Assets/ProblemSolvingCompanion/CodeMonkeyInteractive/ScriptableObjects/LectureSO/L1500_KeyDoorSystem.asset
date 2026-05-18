@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f6a93b863ca8314695b382c0c8c2b3d, type: 3}
+  m_Name: L1500_KeyDoorSystem
+  m_EditorClassIdentifier: 
+  lectureCode: 15
+  lectureNumber: 06
+  lectureName: KeyDoorSystem
+  lectureTitle: Key Door System
+  exerciseListSO: {fileID: 11400000, guid: c073c4f89e9167644afdb558223a211c, type: 2}
+  lectureDescription: 'System with Keys and matching Doors that are opened with that
+    same Key.
+
+
+    In this Scenario the Player can move around, touch Keys to pick
+    them up which adds them to the Inventory. Then by approaching a Door the player
+    can use the Key of the same color to open it.'

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e0d8dd5b8f33e34b965fec3f1ff8d3e, type: 3}
+  m_Name: L1418_EnemyDoesntFindPlayer
+  m_EditorClassIdentifier: 
+  exerciseNumber: 18
+  exerciseName: EnemyDoesntFindPlayer
+  exerciseTitle: Enemy doesn't find Player
+  videoWalkthroughUrl: https://unitycodemonkey.teachable.com/courses/problem-solving/lectures/63458786
+  exerciseText: Enemy should find Player and attack it.
+  hintText: Is the Physics query working correctly? It should first find 1 collider
+    (Enemy) and then when it gets within range it should find 2. (Player)
+  solutionText: Enemy script is using a layerMask set to None so naturally it doesn't
+    find colliders in the Default layer.

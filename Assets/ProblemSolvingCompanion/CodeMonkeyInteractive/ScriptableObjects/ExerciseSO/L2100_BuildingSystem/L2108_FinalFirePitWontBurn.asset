@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e0d8dd5b8f33e34b965fec3f1ff8d3e, type: 3}
+  m_Name: L2108_FinalFirePitWontBurn
+  m_EditorClassIdentifier: 
+  exerciseNumber: 08
+  exerciseName: FinalFirePitWontBurn
+  exerciseTitle: Built Fire Pit won't burn
+  videoWalkthroughUrl: https://unitycodemonkey.teachable.com/courses/problem-solving/lectures/64202473
+  exerciseText: Built Fire Pit won't burn wood.
+  hintText: Is it adding wood? What is happening to that wood? Why is the particle
+    system not being enabled?
+  solutionText: Countdown timer logic is checking for >= instead of <= which means
+    it elapses instantly.
