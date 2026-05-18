@@ -2,12 +2,13 @@ using System;
 using UnityEngine;
 
 
-namespace CMProblemSolving.L1002_HealthSystem {
+namespace CMProblemSolving.L1003_HealthSystem {
 
     public class HealthSystem : MonoBehaviour {
 
 
         public event EventHandler OnHealthAmountChanged;
+        public event EventHandler OnDead;
 
 
         [SerializeField] private int healthAmount = 100;
@@ -15,10 +16,12 @@ namespace CMProblemSolving.L1002_HealthSystem {
 
 
         public void Damage(int damageAmount) {
-            healthAmount += damageAmount;
+            healthAmount -= damageAmount;
             healthAmount = Mathf.Clamp(healthAmount, 0, healthAmountMax);
 
-            OnHealthAmountChanged?.Invoke(this, EventArgs.Empty);
+            if (IsDead()) {
+                OnDead?.Invoke(this, EventArgs.Empty);
+            }
         }
 
         public void Heal(int healAmount) {

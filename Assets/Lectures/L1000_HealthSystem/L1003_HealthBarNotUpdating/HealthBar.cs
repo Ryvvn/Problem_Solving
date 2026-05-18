@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace CMProblemSolving.L1002_HealthSystem {
+namespace CMProblemSolving.L1003_HealthSystem {
 
     public class HealthBar : MonoBehaviour {
 
