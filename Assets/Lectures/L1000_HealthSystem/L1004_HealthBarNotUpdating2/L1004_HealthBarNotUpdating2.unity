@@ -393,8 +393,8 @@ GameObject:
   m_Component:
   - component: {fileID: 87018368}
   - component: {fileID: 87018370}
-  - component: {fileID: 87018371}
   - component: {fileID: 87018372}
+  - component: {fileID: 87018371}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -475,11 +475,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 87018366}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c43abf96169ba644e9d365e818f534f0, type: 3}
+  m_Script: {fileID: 11500000, guid: dc228dd5d1ba48f45ad26b6f77413438, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthAmount: 100
-  healthAmountMax: 100
 --- !u!114 &87018372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -489,9 +487,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 87018366}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 071ca3951a7d95f4d82413d1286af091, type: 3}
+  m_Script: {fileID: 11500000, guid: 5bc1f85136997864aa8f0dab7cc1195d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthAmount: 100
+  healthAmountMax: 100
 --- !u!1 &88867502
 GameObject:
   m_ObjectHideFlags: 0
@@ -641,7 +641,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 0
-  m_FillAmount: 0.311
+  m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
@@ -867,7 +867,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: L1003_HealthBarNotUpdating
+  m_text: L1004_HealthBarNotUpdating2
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1016,7 +1016,7 @@ GameObject:
   - component: {fileID: 719023922}
   - component: {fileID: 719023923}
   m_Layer: 0
-  m_Name: L1003_HealthBarNotUpdating
+  m_Name: L1004_HealthBarNotUpdating2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1046,10 +1046,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 719023920}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9e10edc8cc592a47a6f88bd2c8672cb, type: 3}
+  m_Script: {fileID: 11500000, guid: 377bf87c19ba94145a02b1b5ed5ac73a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 1238575430880850490, guid: 2e7382289b7bbef46ba8241250324092, type: 3}
+  bulletPrefab: {fileID: 1238575430880850490, guid: cc42efe74bbebb847b2da0d33cbeea6d, type: 3}
   shootPoint: {fileID: 1106394301}
 --- !u!1 &824780656
 GameObject:
@@ -1199,7 +1199,6 @@ GameObject:
   - component: {fileID: 1101869297}
   - component: {fileID: 1101869296}
   - component: {fileID: 1101869295}
-  - component: {fileID: 1101869299}
   m_Layer: 5
   m_Name: HealthBar
   m_TagString: Untagged
@@ -1291,20 +1290,6 @@ RectTransform:
   m_AnchoredPosition: {x: -0.03999996, y: 0.81}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1101869299
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1101869294}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93fc45c1143992642b38706982956e64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  healthSystem: {fileID: 87018371}
-  barImage: {fileID: 198649129}
 --- !u!1 &1106394300
 GameObject:
   m_ObjectHideFlags: 0

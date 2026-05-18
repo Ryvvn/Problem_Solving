@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace CMProblemSolving.L1003_HealthSystem {
+namespace CMProblemSolving.L1004_HealthSystem {
 
     public class Bullet : MonoBehaviour {
 
