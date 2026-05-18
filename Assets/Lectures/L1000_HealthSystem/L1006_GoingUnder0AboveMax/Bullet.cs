@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace CMProblemSolving.L1005_HealthSystem {
+namespace CMProblemSolving.L1006_GoingUnder0AboveMax {
 
     public class Bullet : MonoBehaviour {
 
@@ -16,7 +16,7 @@ namespace CMProblemSolving.L1005_HealthSystem {
 
         private void OnTriggerEnter2D(Collider2D collider2D) {
             if (collider2D.gameObject.TryGetComponent(out Enemy enemy)) {
-                enemy.GetComponent<HealthSystem>().Damage(10);
+                enemy.GetComponent<HealthSystem>().Damage(30);
                 DestroySelf();
             }
         }
