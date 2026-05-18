@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 
 
-namespace CMProblemSolving.L1004_HealthSystem {
+namespace CMProblemSolving.L1005_HealthSystem {
 
     public class HealthSystem : MonoBehaviour {
 

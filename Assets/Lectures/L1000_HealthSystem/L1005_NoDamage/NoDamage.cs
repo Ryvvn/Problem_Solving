@@ -1,9 +1,9 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace CMProblemSolving.L1004_HealthSystem {
+namespace CMProblemSolving.L1005_HealthSystem {
 
-    public class HealthBarNotUpdating2 : MonoBehaviour {
+    public class NoDamage : MonoBehaviour {
 
 
         [SerializeField] private Transform bulletPrefab;
